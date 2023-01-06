@@ -33,6 +33,7 @@ namespace ShopOnline.Api.Data
                    .Build();
                 var connectionString = configuration.GetConnectionString("ShopOnlineConnection");
                 optionsBuilder.UseNpgsql(connectionString);
+
             }
         }
 
