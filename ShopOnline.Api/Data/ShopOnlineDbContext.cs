@@ -7,11 +7,10 @@ namespace ShopOnline.Api.Data
 {
     public class ShopOnlineDbContext: DbContext
     {
-        public ShopOnlineDbContext()
+        public ShopOnlineDbContext(DbContextOptions<ShopOnlineDbContext> options) : base(options)
         {
 
         }
-
 
         public DbSet<CartItem> CartItems { get; set; }
 
