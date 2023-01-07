@@ -12,7 +12,7 @@
     "ShopOnline.Api": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "http://localhost:51558",
+      "applicationUrl": "http://localhost:51559;https://localhost:51558",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
